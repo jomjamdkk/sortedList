@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="Addbtn" Content="Add" HorizontalAlignment="Left" Margin="586,0,0,0" VerticalAlignment="Center" Height="90" Click="AddBtn_click" Width="60" FontSize="16"/>
+        <TextBox x:Name="Keytxt" HorizontalAlignment="Left" Margin="307,173,0,0" TextWrapping="Wrap" Text="Key" VerticalAlignment="Top" Width="250" Height="35" FontSize="24"/>
+        <TextBox x:Name="Valuetxt" HorizontalAlignment="Left" Margin="307,228,0,0" TextWrapping="Wrap" Text="Value" VerticalAlignment="Top" Width="250" Height="35" FontSize="24"/>
+        <Button x:Name="ShowBtn" Content="Show All" HorizontalAlignment="Left" Margin="363,289,0,0" VerticalAlignment="Top" Height="20" Width="253" Click="ShowBtn_Click"/>
 
     </Grid>
 </Window>
